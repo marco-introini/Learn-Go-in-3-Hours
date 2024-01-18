@@ -7,7 +7,7 @@ import (
 
 func main() {
 	word := os.Args[1]
-	switch word {
+	switch word { // usa una variabile
 	case "hi":
 		fmt.Println("Very informal!")
 		fallthrough

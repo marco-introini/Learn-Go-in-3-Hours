@@ -14,7 +14,7 @@ func main() {
 	case "hello":
 		fmt.Println("Hi yourself")
 	case "farewell":
-	case "goodbye", "bye":
+	case "goodbye", "bye":  // posso usare più casi insieme
 		fmt.Println("So long!")
 	case "greetings":
 		fmt.Println("Salutations")

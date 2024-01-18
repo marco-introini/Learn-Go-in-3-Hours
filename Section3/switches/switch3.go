@@ -10,7 +10,7 @@ func main() {
 	switch word {
 	case "hi":
 		fmt.Println("Very informal!")
-		fallthrough
+		fallthrough // con questo passa anche a quello successivo
 	case "hello":
 		fmt.Println("Hi yourself")
 	case "goodbye":
