@@ -8,5 +8,9 @@ func main() {
 	s3 := s[7:12]
 	s4 := s[:5]
 	s5 := s[7:]
-	fmt.Println(s, s2, s3, s4, s5)
+	fmt.Println(s)
+	fmt.Println(s2)
+	fmt.Println(s3)
+	fmt.Println(s4)
+	fmt.Println(s5)
 }
