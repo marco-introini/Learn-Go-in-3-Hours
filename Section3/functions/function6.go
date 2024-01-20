@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// con valore singolo di ritorno
 func addNumbers(a int, b int) int {
 	return a + b
 }

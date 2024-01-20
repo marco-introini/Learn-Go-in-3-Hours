@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// i parametri modificati nella funzione NON vengono modificati nel programma principale
+// sono passati per valore (sono copiati)
 func doubleFail(a int, arr [2]int, s string) {
 	a = a * 2
 	for i := 0; i < len(arr); i++ {

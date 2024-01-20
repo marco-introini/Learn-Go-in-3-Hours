@@ -12,6 +12,7 @@ func addNumbers(a int, b int) {
 	fmt.Println(a + b)
 }
 
+// il seguente non è valido. Non è possibile ridefinire le funzioni
 func addNumbers(a int, b int, c int) {
 	fmt.Println(a + b + c)
 }
