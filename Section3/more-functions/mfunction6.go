@@ -8,5 +8,5 @@ func main() {
 		b = a + b
 	}
 	myAddOne(1)
-	fmt.Println(b)
+	fmt.Println(b) // b viene sovrascritto da dentro la funzione, quindi vale 3
 }

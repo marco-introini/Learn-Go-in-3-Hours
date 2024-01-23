@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// funzioni usate come parametri di funzione
 func addOne(a int) int {
 	return a + 1
 }
